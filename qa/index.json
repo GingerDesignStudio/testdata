@@ -1,0 +1,68 @@
+[
+  {
+    "id": "q1",
+    "type": "FREE_TEXT",
+    "text": "現在の赤ちゃんの様子で気になることはありますか？",
+    "imageUrl": null
+  },
+  {
+    "id": "q2",
+    "type": "FREE_TEXT_IMAGE",
+    "text": "この図のような姿勢で授乳していますか？",
+    "imageUrl": "https://gingerdesignstudio.github.io/qa/images/q2_sample.jpg"
+  },
+  {
+    "id": "q3",
+    "type": "MULTI_CHOICE",
+    "text": "あてはまる症状を選択してください（複数回答可）",
+    "options": [
+      { "id": "opt1", "text": "むせやすい" },
+      { "id": "opt2", "text": "飲むのに時間がかかる" },
+      { "id": "opt3", "text": "体重が増えない" }
+    ]
+  },
+  {
+    "id": "q4",
+    "type": "MULTI_CHOICE_IMAGE",
+    "text": "お口の状態はどれに近いですか？（複数回答可）",
+    "options": [
+      { 
+        "id": "opt4_1", 
+        "text": "アヒルの口", 
+        "imageUrl": "https://gingerdesignstudio.github.io/qa/images/mouth_a.jpg"
+      },
+      { 
+        "id": "opt4_2", 
+        "text": "巻き込み", 
+        "imageUrl": "https://gingerdesignstudio.github.io/qa/images/mouth_b.jpg"
+      }
+    ]
+  },
+  {
+    "id": "q5",
+    "type": "SINGLE_CHOICE",
+    "text": "一日の授乳回数は？",
+    "options": [
+      { "id": "opt5_1", "text": "1-3回" },
+      { "id": "opt5_2", "text": "4-6回" },
+      { "id": "opt5_3", "text": "7回以上" }
+    ]
+  },
+  {
+    "id": "q6",
+    "type": "SINGLE_CHOICE_IMAGE",
+    "text": "乳首の形はどれですか？",
+    "options": [
+      { 
+        "id": "opt6_1", 
+        "text": "陥没", 
+        "imageUrl": "https://gingerdesignstudio.github.io/qa/images/nipple_1.jpg" 
+      },
+      { 
+        "id": "opt6_2", 
+        "text": "扁平", 
+        "imageUrl": "https://gingerdesignstudio.github.io/qa/images/nipple_2.jpg" 
+      }
+    ]
+  }
+]
