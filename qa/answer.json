@@ -1,0 +1,100 @@
+[
+  {
+    "id": "q1",
+    "type": "SINGLE_LINE_TEXT",
+    "text": "担当者名（助産師の名前）",
+    "answer": "山田 花子"
+  },
+  {
+    "id": "q2",
+    "type": "SINGLE_CHOICE",
+    "text": "赤ちゃんのおしっこの頻度は？",
+    "options": [
+      { "id": "o1", "text": "1日5回以上" }
+    ]
+  },
+  {
+    "id": "q3",
+    "type": "MULTI_CHOICE",
+    "text": "お母さんについて（ポジティブ）",
+    "options": [
+      { "id": "o3", "text": "お母さんは健康的に見える" },
+      { "id": "o4", "text": "お母さんはリラックスしていて快適に見える" }
+    ]
+  },
+  {
+    "id": "q4",
+    "type": "MULTI_CHOICE",
+    "text": "お母さんについて（ネガティブ）",
+    "options": [
+      { "id": "o8", "text": "母子間でアイコンタクトがない" }
+    ]
+  },
+  {
+    "id": "q5",
+    "type": "FREE_TEXT",
+    "text": "自由記述（複数行）のサンプル",
+    "answer": "昨晩から授乳の間隔が少し短くなっているようです。お母さんは少し疲れが見えますが、意欲的に取り組んでいます。"
+  },
+  {
+    "id": "q6",
+    "type": "FREE_TEXT_IMAGE",
+    "text": "自由記述（複数行）＋画像のサンプル",
+    "imageUrl": "https://gingerdesignstudio.github.io/testdata/qa/images/sample.png",
+    "answer": "画像にある通りの姿勢を意識して指導しました。左側の抱き方が少し不安定な印象です。"
+  },
+  {
+    "id": "q7",
+    "type": "SINGLE_LINE_TEXT",
+    "text": "自由記述（一行）のサンプル",
+    "answer": "特記事項なし"
+  },
+  {
+    "id": "q8",
+    "type": "SINGLE_LINE_TEXT_IMAGE",
+    "text": "自由記述（一行）＋画像のサンプル",
+    "imageUrl": "https://gingerdesignstudio.github.io/testdata/qa/images/sample.png",
+    "answer": "器具のシリアル番号：ABC-12345"
+  },
+  {
+    "id": "q9",
+    "type": "MULTI_CHOICE",
+    "text": "複数選択のサンプル",
+    "options": [
+      { "id": "o101", "text": "選択肢1" },
+      { "id": "o102", "text": "選択肢2" }
+    ]
+  },
+  {
+    "id": "q10",
+    "type": "MULTI_CHOICE_IMAGE",
+    "text": "複数選択＋画像のサンプル",
+    "options": [
+      { 
+        "id": "o103", 
+        "text": "選択肢1", 
+        "imageUrl": "https://gingerdesignstudio.github.io/testdata/qa/images/sample.png" 
+      }
+    ]
+  },
+  {
+    "id": "q11",
+    "type": "SINGLE_CHOICE",
+    "text": "単一選択のサンプル",
+    "options": [
+      { "id": "o106", "text": "選択肢2" }
+    ]
+  },
+  {
+    "id": "q12",
+    "type": "SINGLE_CHOICE_IMAGE",
+    "text": "単一選択＋画像のサンプル",
+    "options": [
+      { 
+        "id": "o108", 
+        "text": "選択肢2", 
+        "imageUrl": "https://gingerdesignstudio.github.io/testdata/qa/images/sample.png" 
+      }
+    ]
+  }
+]
