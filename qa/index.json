@@ -42,7 +42,7 @@
     "id": "q6",
     "type": "FREE_TEXT_IMAGE",
     "text": "自由記述（複数行）＋画像のサンプル",
-    "imageUrl": "https://gingerdesignstudio.github.io/qa/images/sample.png"
+    "imageUrl": "https://gingerdesignstudio.github.io/testdata/qa/images/sample.png"
   },
   {
     "id": "q7",
@@ -53,7 +53,7 @@
     "id": "q8",
     "type": "SINGLE_LINE_TEXT_IMAGE",
     "text": "自由記述（一行）＋画像のサンプル",
-    "imageUrl": "https://gingerdesignstudio.github.io/qa/images/sample.png"
+    "imageUrl": "https://gingerdesignstudio.github.io/testdata/qa/images/sample.png"
   },
   {
     "id": "q9",
@@ -69,8 +69,8 @@
     "type": "MULTI_CHOICE_IMAGE",
     "text": "複数選択＋画像のサンプル",
     "options": [
-      { "id": "o103", "text": "選択肢1", "imageUrl": "https://gingerdesignstudio.github.io/qa/images/sample.png" },
-      { "id": "o104", "text": "選択肢2", "imageUrl": "https://gingerdesignstudio.github.io/qa/images/sample.png" }
+      { "id": "o103", "text": "選択肢1", "imageUrl": "https://gingerdesignstudio.github.io/testdata/qa/images/sample.png" },
+      { "id": "o104", "text": "選択肢2", "imageUrl": "https://gingerdesignstudio.github.io/testdata/qa/images/sample.png" }
     ]
   },
   {
@@ -87,8 +87,8 @@
     "type": "SINGLE_CHOICE_IMAGE",
     "text": "単一選択＋画像のサンプル",
     "options": [
-      { "id": "o107", "text": "選択肢1", "imageUrl": "https://gingerdesignstudio.github.io/qa/images/sample.png" },
-      { "id": "o108", "text": "選択肢2", "imageUrl": "https://gingerdesignstudio.github.io/qa/images/sample.png" }
+      { "id": "o107", "text": "選択肢1", "imageUrl": "https://gingerdesignstudio.github.io/testdata/qa/images/sample.png" },
+      { "id": "o108", "text": "選択肢2", "imageUrl": "https://gingerdesignstudio.github.io/testdata/qa/images/sample.png" }
     ]
   }
 ]
