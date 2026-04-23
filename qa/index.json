@@ -2,67 +2,59 @@
   {
     "id": "q1",
     "type": "FREE_TEXT",
-    "text": "現在の赤ちゃんの様子で気になることはありますか？",
-    "imageUrl": null
+    "text": "①自由記述：現在の赤ちゃんの様子で気になることはありますか？"
   },
   {
     "id": "q2",
     "type": "FREE_TEXT_IMAGE",
-    "text": "この図のような姿勢で授乳していますか？",
-    "imageUrl": "https://gingerdesignstudio.github.io/qa/images/q2_sample.jpg"
+    "text": "①'自由記述＋画像：図の姿勢に心当たりはありますか？",
+    "imageUrl": "https://gingerdesignstudio.github.io/qa/images/sample1.jpg"
   },
   {
     "id": "q3",
-    "type": "MULTI_CHOICE",
-    "text": "あてはまる症状を選択してください（複数回答可）",
-    "options": [
-      { "id": "opt1", "text": "むせやすい" },
-      { "id": "opt2", "text": "飲むのに時間がかかる" },
-      { "id": "opt3", "text": "体重が増えない" }
-    ]
+    "type": "SINGLE_LINE_TEXT",
+    "text": "④1行入力：赤ちゃんの現在の体重を教えてください"
   },
   {
     "id": "q4",
-    "type": "MULTI_CHOICE_IMAGE",
-    "text": "お口の状態はどれに近いですか？（複数回答可）",
-    "options": [
-      { 
-        "id": "opt4_1", 
-        "text": "アヒルの口", 
-        "imageUrl": "https://gingerdesignstudio.github.io/qa/images/mouth_a.jpg"
-      },
-      { 
-        "id": "opt4_2", 
-        "text": "巻き込み", 
-        "imageUrl": "https://gingerdesignstudio.github.io/qa/images/mouth_b.jpg"
-      }
-    ]
+    "type": "SINGLE_LINE_TEXT_IMAGE",
+    "text": "④'1行入力＋画像：この器具のシリアル番号を入力してください",
+    "imageUrl": "https://gingerdesignstudio.github.io/qa/images/sample2.jpg"
   },
   {
     "id": "q5",
-    "type": "SINGLE_CHOICE",
-    "text": "一日の授乳回数は？",
+    "type": "MULTI_CHOICE",
+    "text": "②複数選択：あてはまる症状を選択してください",
     "options": [
-      { "id": "opt5_1", "text": "1-3回" },
-      { "id": "opt5_2", "text": "4-6回" },
-      { "id": "opt5_3", "text": "7回以上" }
+      { "id": "o1", "text": "むせやすい" },
+      { "id": "o2", "text": "飲むのに時間がかかる" }
     ]
   },
   {
     "id": "q6",
-    "type": "SINGLE_CHOICE_IMAGE",
-    "text": "乳首の形はどれですか？",
+    "type": "MULTI_CHOICE_IMAGE",
+    "text": "②'複数選択＋画像：お口の状態を選択してください",
     "options": [
-      { 
-        "id": "opt6_1", 
-        "text": "陥没", 
-        "imageUrl": "https://gingerdesignstudio.github.io/qa/images/nipple_1.jpg" 
-      },
-      { 
-        "id": "opt6_2", 
-        "text": "扁平", 
-        "imageUrl": "https://gingerdesignstudio.github.io/qa/images/nipple_2.jpg" 
-      }
+      { "id": "o3", "text": "アヒルの口", "imageUrl": "https://gingerdesignstudio.github.io/qa/images/mouth1.jpg" },
+      { "id": "o4", "text": "巻き込み", "imageUrl": "https://gingerdesignstudio.github.io/qa/images/mouth2.jpg" }
+    ]
+  },
+  {
+    "id": "q7",
+    "type": "SINGLE_CHOICE",
+    "text": "③単一選択：一日の授乳回数は？",
+    "options": [
+      { "id": "o5", "text": "1-3回" },
+      { "id": "o6", "text": "4-6回" }
+    ]
+  },
+  {
+    "id": "q8",
+    "type": "SINGLE_CHOICE_IMAGE",
+    "text": "③'単一選択＋画像：乳首の形はどれですか？",
+    "options": [
+      { "id": "o7", "text": "陥没", "imageUrl": "https://gingerdesignstudio.github.io/qa/images/nipple1.jpg" },
+      { "id": "o8", "text": "扁平", "imageUrl": "https://gingerdesignstudio.github.io/qa/images/nipple2.jpg" }
     ]
   }
 ]
