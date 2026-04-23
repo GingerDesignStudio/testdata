@@ -1,60 +1,93 @@
 [
   {
     "id": "q1",
-    "type": "FREE_TEXT",
-    "text": "①自由記述：現在の赤ちゃんの様子で気になることはありますか？"
+    "type": "SINGLE_LINE_TEXT",
+    "text": "担当者名（助産師の名前）"
   },
   {
     "id": "q2",
-    "type": "FREE_TEXT_IMAGE",
-    "text": "①'自由記述＋画像：図の姿勢に心当たりはありますか？",
-    "imageUrl": "https://gingerdesignstudio.github.io/qa/images/sample1.jpg"
+    "type": "SINGLE_CHOICE",
+    "text": "赤ちゃんのおしっこの頻度は？",
+    "options": [
+      { "id": "o1", "text": "1日5回以上" },
+      { "id": "o2", "text": "1日5回未満" }
+    ]
   },
   {
     "id": "q3",
-    "type": "SINGLE_LINE_TEXT",
-    "text": "④1行入力：赤ちゃんの現在の体重を教えてください"
+    "type": "MULTI_CHOICE",
+    "text": "お母さんについて（ポジティブ）",
+    "options": [
+      { "id": "o3", "text": "お母さんは健康的に見える" },
+      { "id": "o4", "text": "お母さんはリラックスしていて快適に見える" },
+      { "id": "o5", "text": "母子に愛着形成ができているサインがある" }
+    ]
   },
   {
     "id": "q4",
-    "type": "SINGLE_LINE_TEXT_IMAGE",
-    "text": "④'1行入力＋画像：この器具のシリアル番号を入力してください",
-    "imageUrl": "https://gingerdesignstudio.github.io/qa/images/sample2.jpg"
+    "type": "MULTI_CHOICE",
+    "text": "お母さんについて（ネガティブ）",
+    "options": [
+      { "id": "o6", "text": "お母さんは具合が悪そう、または憂鬱そうに見える" },
+      { "id": "o7", "text": "お母さんは緊張している、または不快に思っているように見える" },
+      { "id": "o8", "text": "母子間でアイコンタクトがない" }
+    ]
   },
   {
     "id": "q5",
-    "type": "MULTI_CHOICE",
-    "text": "②複数選択：あてはまる症状を選択してください",
-    "options": [
-      { "id": "o1", "text": "むせやすい" },
-      { "id": "o2", "text": "飲むのに時間がかかる" }
-    ]
+    "type": "FREE_TEXT",
+    "text": "自由記述（複数行）のサンプル"
   },
   {
     "id": "q6",
-    "type": "MULTI_CHOICE_IMAGE",
-    "text": "②'複数選択＋画像：お口の状態を選択してください",
-    "options": [
-      { "id": "o3", "text": "アヒルの口", "imageUrl": "https://gingerdesignstudio.github.io/qa/images/mouth1.jpg" },
-      { "id": "o4", "text": "巻き込み", "imageUrl": "https://gingerdesignstudio.github.io/qa/images/mouth2.jpg" }
-    ]
+    "type": "FREE_TEXT_IMAGE",
+    "text": "自由記述（複数行）＋画像のサンプル",
+    "imageUrl": "https://gingerdesignstudio.github.io/qa/images/sample.png"
   },
   {
     "id": "q7",
-    "type": "SINGLE_CHOICE",
-    "text": "③単一選択：一日の授乳回数は？",
-    "options": [
-      { "id": "o5", "text": "1-3回" },
-      { "id": "o6", "text": "4-6回" }
-    ]
+    "type": "SINGLE_LINE_TEXT",
+    "text": "自由記述（一行）のサンプル"
   },
   {
     "id": "q8",
-    "type": "SINGLE_CHOICE_IMAGE",
-    "text": "③'単一選択＋画像：乳首の形はどれですか？",
+    "type": "SINGLE_LINE_TEXT_IMAGE",
+    "text": "自由記述（一行）＋画像のサンプル",
+    "imageUrl": "https://gingerdesignstudio.github.io/qa/images/sample.png"
+  },
+  {
+    "id": "q9",
+    "type": "MULTI_CHOICE",
+    "text": "複数選択のサンプル",
     "options": [
-      { "id": "o7", "text": "陥没", "imageUrl": "https://gingerdesignstudio.github.io/qa/images/nipple1.jpg" },
-      { "id": "o8", "text": "扁平", "imageUrl": "https://gingerdesignstudio.github.io/qa/images/nipple2.jpg" }
+      { "id": "o101", "text": "選択肢1" },
+      { "id": "o102", "text": "選択肢2" }
+    ]
+  },
+  {
+    "id": "q10",
+    "type": "MULTI_CHOICE_IMAGE",
+    "text": "複数選択＋画像のサンプル",
+    "options": [
+      { "id": "o103", "text": "選択肢1", "imageUrl": "https://gingerdesignstudio.github.io/qa/images/sample.png" },
+      { "id": "o104", "text": "選択肢2", "imageUrl": "https://gingerdesignstudio.github.io/qa/images/sample.png" }
+    ]
+  },
+  {
+    "id": "q11",
+    "type": "SINGLE_CHOICE",
+    "text": "単一選択のサンプル",
+    "options": [
+      { "id": "o105", "text": "選択肢1" },
+      { "id": "o106", "text": "選択肢2" }
+    ]
+  },
+  {
+    "id": "q12",
+    "type": "SINGLE_CHOICE_IMAGE",
+    "text": "単一選択＋画像のサンプル",
+    "options": [
+      { "id": "o107", "text": "選択肢1", "imageUrl": "https://gingerdesignstudio.github.io/qa/images/sample.png" },
+      { "id": "o108", "text": "選択肢2", "imageUrl": "https://gingerdesignstudio.github.io/qa/images/sample.png" }
     ]
   }
-]
