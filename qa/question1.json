@@ -1,94 +1,94 @@
 [
   {
-    "id": "q1",
+    "id": "obs_q01",
     "type": "SINGLE_LINE_TEXT",
     "text": "担当者名（助産師の名前）"
   },
   {
-    "id": "q2",
+    "id": "obs_q02",
     "type": "SINGLE_CHOICE",
     "text": "赤ちゃんのおしっこの頻度は？",
     "options": [
-      { "id": "o1", "text": "1日5回以上" },
-      { "id": "o2", "text": "1日5回未満" }
+      { "id": "obs_q02_o1", "text": "1日5回以上" },
+      { "id": "obs_q02_o2", "text": "1日5回未満" }
     ]
   },
   {
-    "id": "q3",
+    "id": "obs_q03",
     "type": "MULTI_CHOICE",
     "text": "お母さんについて（ポジティブ）",
     "options": [
-      { "id": "o3", "text": "お母さんは健康的に見える" },
-      { "id": "o4", "text": "お母さんはリラックスしていて快適に見える" },
-      { "id": "o5", "text": "母子に愛着形成ができているサインがある" }
+      { "id": "obs_q03_o1", "text": "お母さんは健康的に見える" },
+      { "id": "obs_q03_o2", "text": "お母さんはリラックスしていて快適に見える" },
+      { "id": "obs_q03_o3", "text": "母子に愛着形成ができているサインがある" }
     ]
   },
   {
-    "id": "q4",
+    "id": "obs_q04",
     "type": "MULTI_CHOICE",
     "text": "お母さんについて（ネガティブ）",
     "options": [
-      { "id": "o6", "text": "お母さんは具合が悪そう、または憂鬱そうに見える" },
-      { "id": "o7", "text": "お母さんは緊張している、または不快に思っているように見える" },
-      { "id": "o8", "text": "母子間でアイコンタクトがない" }
+      { "id": "obs_q04_o1", "text": "お母さんは具合が悪そう、または憂鬱そうに見える" },
+      { "id": "obs_q04_o2", "text": "お母さんは緊張している、または不快に思っているように見える" },
+      { "id": "obs_q04_o3", "text": "母子間でアイコンタクトがない" }
     ]
   },
   {
-    "id": "q5",
+    "id": "obs_q05",
     "type": "FREE_TEXT",
     "text": "自由記述（複数行）のサンプル"
   },
   {
-    "id": "q6",
+    "id": "obs_q06",
     "type": "FREE_TEXT_IMAGE",
     "text": "自由記述（複数行）＋画像のサンプル",
     "imageUrl": "https://gingerdesignstudio.github.io/testdata/qa/images/sample.png"
   },
   {
-    "id": "q7",
+    "id": "obs_q07",
     "type": "SINGLE_LINE_TEXT",
     "text": "自由記述（一行）のサンプル"
   },
   {
-    "id": "q8",
+    "id": "obs_q08",
     "type": "SINGLE_LINE_TEXT_IMAGE",
     "text": "自由記述（一行）＋画像のサンプル",
     "imageUrl": "https://gingerdesignstudio.github.io/testdata/qa/images/sample.png"
   },
   {
-    "id": "q9",
+    "id": "obs_q09",
     "type": "MULTI_CHOICE",
     "text": "複数選択のサンプル",
     "options": [
-      { "id": "o101", "text": "選択肢1" },
-      { "id": "o102", "text": "選択肢2" }
+      { "id": "obs_q09_o1", "text": "選択肢1" },
+      { "id": "obs_q09_o2", "text": "選択肢2" }
     ]
   },
   {
-    "id": "q10",
+    "id": "obs_q10",
     "type": "MULTI_CHOICE_IMAGE",
     "text": "複数選択＋画像のサンプル",
     "options": [
-      { "id": "o103", "text": "選択肢1", "imageUrl": "https://gingerdesignstudio.github.io/testdata/qa/images/sample.png" },
-      { "id": "o104", "text": "選択肢2", "imageUrl": "https://gingerdesignstudio.github.io/testdata/qa/images/sample.png" }
+      { "id": "obs_q10_o1", "text": "選択肢1", "imageUrl": "https://gingerdesignstudio.github.io/testdata/qa/images/sample.png" },
+      { "id": "obs_q10_o2", "text": "選択肢2", "imageUrl": "https://gingerdesignstudio.github.io/testdata/qa/images/sample.png" }
     ]
   },
   {
-    "id": "q11",
+    "id": "obs_q11",
     "type": "SINGLE_CHOICE",
     "text": "単一選択のサンプル",
     "options": [
-      { "id": "o105", "text": "選択肢1" },
-      { "id": "o106", "text": "選択肢2" }
+      { "id": "obs_q11_o1", "text": "選択肢1" },
+      { "id": "obs_q11_o2", "text": "選択肢2" }
     ]
   },
   {
-    "id": "q12",
+    "id": "obs_q12",
     "type": "SINGLE_CHOICE_IMAGE",
     "text": "単一選択＋画像のサンプル",
     "options": [
-      { "id": "o107", "text": "選択肢1", "imageUrl": "https://gingerdesignstudio.github.io/testdata/qa/images/sample.png" },
-      { "id": "o108", "text": "選択肢2", "imageUrl": "https://gingerdesignstudio.github.io/testdata/qa/images/sample.png" }
+      { "id": "obs_q12_o1", "text": "選択肢1", "imageUrl": "https://gingerdesignstudio.github.io/testdata/qa/images/sample.png" },
+      { "id": "obs_q12_o2", "text": "選択肢2", "imageUrl": "https://gingerdesignstudio.github.io/testdata/qa/images/sample.png" }
     ]
   }
 ]
