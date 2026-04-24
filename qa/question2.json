@@ -1,0 +1,105 @@
+[
+  {
+    "id": "q1",
+    "type": "SINGLE_CHOICE",
+    "text": "乳房の形",
+    "options": [
+      { "id": "o1", "text": "Ⅰ型" },
+      { "id": "o2", "text": "Ⅱa型" },
+      { "id": "o3", "text": "Ⅱb型" },
+      { "id": "o4", "text": "Ⅲ型" }
+    ]
+  },
+  {
+    "id": "q2",
+    "type": "MULTI_CHOICE",
+    "text": "乳房トラブルの有無（複数選択可）",
+    "options": [
+      { "id": "o5", "text": "なし" },
+      { "id": "o6", "text": "硬結" },
+      { "id": "o7", "text": "発赤" },
+      { "id": "o8", "text": "熱感" },
+      { "id": "o9", "text": "腫脹" },
+      { "id": "o10", "text": "副乳" }
+    ]
+  },
+  {
+    "id": "q3",
+    "type": "FREE_TEXT",
+    "text": "その他の乳房トラブル",
+    "options": [
+      { "id": "o11", "text": "お母さんは健康的に見える" },
+      { "id": "o12", "text": "お母さんはリラックスしていて快適に見える" },
+      { "id": "o13", "text": "母子に愛着形成ができているサインがある" }
+    ]
+  },
+  {
+    "id": "q4",
+    "type": "MULTI_CHOICE_IMAGE",
+    "text": "乳房トラブルの部位は上記の図のうちどこですか。（複数選択可）",
+    "options": [
+      { "id": "o14", "text": "選択肢1", "imageUrl": "https://gingerdesignstudio.github.io/testdata/qa/images/image1.png" },
+      { "id": "o15", "text": "選択肢2", "imageUrl": "https://gingerdesignstudio.github.io/testdata/qa/images/image2.png" },
+      { "id": "o16", "text": "選択肢3", "imageUrl": "https://gingerdesignstudio.github.io/testdata/qa/images/image3.png" },
+      { "id": "o17", "text": "選択肢4", "imageUrl": "https://gingerdesignstudio.github.io/testdata/qa/images/image4.png" }
+    ]
+  },
+  {
+    "id": "q5",
+    "type": "FREE_TEXT",
+    "text": "自由記述（複数行）のサンプル"
+  },
+  {
+    "id": "q6",
+    "type": "FREE_TEXT_IMAGE",
+    "text": "自由記述（複数行）＋画像のサンプル",
+    "imageUrl": "https://gingerdesignstudio.github.io/testdata/qa/images/sample.png"
+  },
+  {
+    "id": "q7",
+    "type": "SINGLE_LINE_TEXT",
+    "text": "自由記述（一行）のサンプル"
+  },
+  {
+    "id": "q8",
+    "type": "SINGLE_LINE_TEXT_IMAGE",
+    "text": "自由記述（一行）＋画像のサンプル",
+    "imageUrl": "https://gingerdesignstudio.github.io/testdata/qa/images/sample.png"
+  },
+  {
+    "id": "q9",
+    "type": "MULTI_CHOICE",
+    "text": "複数選択のサンプル",
+    "options": [
+      { "id": "o101", "text": "選択肢1" },
+      { "id": "o102", "text": "選択肢2" }
+    ]
+  },
+  {
+    "id": "q10",
+    "type": "MULTI_CHOICE_IMAGE",
+    "text": "複数選択＋画像のサンプル",
+    "options": [
+      { "id": "o103", "text": "選択肢1", "imageUrl": "https://gingerdesignstudio.github.io/testdata/qa/images/sample.png" },
+      { "id": "o104", "text": "選択肢2", "imageUrl": "https://gingerdesignstudio.github.io/testdata/qa/images/sample.png" }
+    ]
+  },
+  {
+    "id": "q11",
+    "type": "SINGLE_CHOICE",
+    "text": "単一選択のサンプル",
+    "options": [
+      { "id": "o105", "text": "選択肢1" },
+      { "id": "o106", "text": "選択肢2" }
+    ]
+  },
+  {
+    "id": "q12",
+    "type": "SINGLE_CHOICE_IMAGE",
+    "text": "単一選択＋画像のサンプル",
+    "options": [
+      { "id": "o107", "text": "選択肢1", "imageUrl": "https://gingerdesignstudio.github.io/testdata/qa/images/sample.png" },
+      { "id": "o108", "text": "選択肢2", "imageUrl": "https://gingerdesignstudio.github.io/testdata/qa/images/sample.png" }
+    ]
+  }
+]
